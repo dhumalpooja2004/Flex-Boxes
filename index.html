@@ -37,16 +37,22 @@
         }
         .direction2{
             flex-direction:column-reverse;
-            background-color:chartreuse;
+            background-color:aqua;
             width:170px;
             display: flex;
             border-radius: 5px;
+        }
+        .just{
+         flex-direction:row;
+         background-color:pink;
+         justify-content:space-evenly;
+         display: flex;
         }
     </style>
 </head>
 <body>
     <h1 class="heading">Flex-Boxes</h1>
-    <h4>Row</h4>
+    <h2>Row</h2>
     <div class="card-Container">
     <div class="card">
         <img src="./Images/Plants.png" class="card-img">
@@ -69,7 +75,7 @@
                    <h2 class="heading">Seeds</h2>
         </div>
     </div>
-    <h4>Row-Revers</h4>
+    <h2>Row-Revers</h2>
     <div class="direction">
     <div class="card">
         <img src="./Images/Plants.png" class="card-img">
@@ -92,7 +98,7 @@
                    <h2 class="heading">Seeds</h2>
     </div>
     </div>
-    <h4>column</h4>
+    <h2>column</h2>
     <div class="direction1">
     <div class="card">
         <img src="./Images/Plants.png" class="card-img">
@@ -115,7 +121,7 @@
                    <h2 class="heading">Seeds</h2>
     </div>
     </div>
-    <h4>column-Reverse</h4>
+    <h2>column-Reverse</h2>
     <div class="direction2">
     <div class="card">
         <img src="./Images/Plants.png" class="card-img">
@@ -137,6 +143,21 @@
                    <img src="./Images/Seeds.png" class="card-img">
                    <h2 class="heading">Seeds</h2>
     </div>
+    </div>
+        <h2>column-Reverse</h2>
+    <div class="just">
+    <div class="card">
+        <img src="./Images/Plants.png" class="card-img">
+        <h2 class="heading">Plants</h2>
+    </div>
+        <div class="card">
+            <img src="./Images/Accessories.png" class="card-img">
+            <h2 class="heading">Accessories</h2>
+        </div>
+         <div class="card">
+                <img src="./Images/fertilizers.png" class="card-img">
+                <h2 class="heading">fertilizers</h2>
+         </div>
     </div>
 </body>
 </html> 
