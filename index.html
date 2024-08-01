@@ -42,12 +42,20 @@
             display: flex;
             border-radius: 5px;
         }
-        .just{
+         .just{
          flex-direction:row;
          background-color:pink;
          justify-content:space-evenly;
-         display: flex;
-        }
+         display:flex;
+         }
+         .align{
+         padding: 5px;
+         flex-direction:row;
+         background-color:lightslategray;
+         align-items:end;
+         display:flex;
+        height: 250px;
+         }
     </style>
 </head>
 <body>
@@ -144,8 +152,23 @@
                    <h2 class="heading">Seeds</h2>
     </div>
     </div>
-        <h2>column-Reverse</h2>
+        <h2>Justify-Content</h2>
     <div class="just">
+    <div class="card">
+        <img src="./Images/Plants.png" class="card-img">
+        <h2 class="heading">Plants</h2>
+    </div>
+        <div class="card">
+            <img src="./Images/Accessories.png" class="card-img">
+            <h2 class="heading">Accessories</h2>
+        </div>
+         <div class="card">
+                <img src="./Images/fertilizers.png" class="card-img">
+                <h2 class="heading">fertilizers</h2>
+         </div>
+    </div>
+    <h2>align-Items</h2>
+    <div class="align">
     <div class="card">
         <img src="./Images/Plants.png" class="card-img">
         <h2 class="heading">Plants</h2>
