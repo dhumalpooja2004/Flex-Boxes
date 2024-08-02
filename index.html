@@ -103,6 +103,32 @@
          display:flex;
          height:300px;
          }
+        .flex{
+            height:200px;
+            background-color:aquamarine;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .flex1{
+            background-color: cornflowerblue;
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 5px;
+            border-radius: 5px;
+            flex-direction:row;
+        }
+        .flex3{
+            height:200px;
+            background-color:mediumvioletred;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            padding: 5px;
+            border-radius: 5px;
+            align-items: center;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
@@ -335,6 +361,76 @@
                 <img src="./Images/fertilizers.png" class="card-img">
                 <h2 class="heading">fertilizers</h2>
          </div>
+    </div>
+    <h1>flex-wrap</h1>
+    <h2>1.wrap</h2>
+    <div class="flex">
+    <div class="card">
+        <img src="./Images/Plants.png" class="card-img">
+        <h2 class="heading">Plants</h2>
+    </div>
+        <div class="card">
+            <img src="./Images/Accessories.png" class="card-img">
+            <h2 class="heading">Accessories</h2>
+        </div>
+         <div class="card">
+                <img src="./Images/fertilizers.png" class="card-img">
+                <h2 class="heading">fertilizers</h2>
+        </div>
+            <div class="card">
+                   <img src="./Images/Gardening.png" class="card-img">
+                   <h2 class="heading">Gardening</h2>
+           </div>
+            <div class="card">
+                   <img src="./Images/Seeds.png" class="card-img">
+                   <h2 class="heading">Seeds</h2>
+        </div>
+    </div>
+    <h2>2.nowrap</h2>
+    <div class="flex1">
+    <div class="card">
+        <img src="./Images/Plants.png" class="card-img">
+        <h2 class="heading">Plants</h2>
+    </div>
+        <div class="card">
+            <img src="./Images/Accessories.png" class="card-img">
+            <h2 class="heading">Accessories</h2>
+        </div>
+         <div class="card">
+                <img src="./Images/fertilizers.png" class="card-img">
+                <h2 class="heading">fertilizers</h2>
+        </div>
+            <div class="card">
+                   <img src="./Images/Gardening.png" class="card-img">
+                   <h2 class="heading">Gardening</h2>
+           </div>
+            <div class="card">
+                   <img src="./Images/Seeds.png" class="card-img">
+                   <h2 class="heading">Seeds</h2>
+        </div>
+    </div>
+    <h2>2.wrap-reverse</h2>
+    <div class="flex3">
+    <div class="card">
+        <img src="./Images/Plants.png" class="card-img">
+        <h2 class="heading">Plants</h2>
+    </div>
+        <div class="card">
+            <img src="./Images/Accessories.png" class="card-img">
+            <h2 class="heading">Accessories</h2>
+        </div>
+         <div class="card">
+                <img src="./Images/fertilizers.png" class="card-img">
+                <h2 class="heading">fertilizers</h2>
+        </div>
+            <div class="card">
+                   <img src="./Images/Gardening.png" class="card-img">
+                   <h2 class="heading">Gardening</h2>
+           </div>
+            <div class="card">
+                   <img src="./Images/Seeds.png" class="card-img">
+                   <h2 class="heading">Seeds</h2>
+        </div>
     </div>
 </body>
 </html> 
